@@ -1,9 +1,19 @@
 import React from 'react';
-
+import header from "../../../image/images/header.png";
+import "./HeaderMain.css";
 const HeaderMain = () => {
     return (
-        <div>
-            <h1>this is header main page</h1>
+        <div className="container">
+            <div className="row my-5">
+                <div className="col-md-6">
+                    <h1 className="title">Floren <br /> agency</h1>
+                    <p className="title-details">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <button className="btn text-white">See Pricing</button>
+                </div>
+                <div className="col-md-6 ">
+                    <img className="img-fluid" src={header} alt="" />
+                </div>
+            </div>
         </div>
     );
 };
