@@ -1,6 +1,7 @@
 import React from 'react';
 import Achievement from '../Achievements/Achievement';
 import Contact from '../Contact/Contact';
+import DedicatedTeam from '../DedicatedTeam/DedicatedTeam';
 import HeaderMain from '../HeaderMain/HeaderMain';
 import Navbar from '../Navbar/Navbar';
 import Service from '../Service/Service';
@@ -13,6 +14,7 @@ const Home = () => {
             <Service></Service>
             <Contact></Contact>
             <Achievement></Achievement>
+            <DedicatedTeam />
         </div>
     );
 };
