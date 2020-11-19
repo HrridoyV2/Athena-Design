@@ -1,0 +1,12 @@
+.form-control{
+    height: 80px;
+    width: 880px;
+}
+
+.get-started-btn{
+    font-family: var(--details);
+    /* border-radius: 50px 0 50px 0; */
+    height: 60px;
+    width: 178px;
+    background-image: linear-gradient(45deg,#2AF59D,#009EFD);
+}
