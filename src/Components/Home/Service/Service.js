@@ -11,7 +11,7 @@ const Service = () => {
                 <h3>What we do</h3>
                 <p>Our main focus is to make the User Experience very <br /> simple and easy. Simplicity is our Strength.</p>
             </div>
-            <div className="row">
+            <div className="row text-center">
                 <div className="col-md-3">
                     <img className="img-fluid" src={experience} alt="" />
                     <h4 className="mt-4 mb-3">Experience Design</h4>
