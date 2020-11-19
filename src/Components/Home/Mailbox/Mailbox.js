@@ -3,25 +3,21 @@ import "./Mailbox.css";
 
 const Mailbox = () => {
     return (
-        
-            // <div className="mailboxsection d-flex align-items-center">
-                <div className="mailbox container">
-                    <div className="row justify-content-center my-5">
-                        <h1>Get your design right, right now</h1>
-                        </div>
-                        <div className="col-md-12">
-                        <p> Be the first know our latest offers and updates!</p>
-                        </div>
-                        
-                        <div className="col-md-8 my-5">
-                            <input className="form-control" type="text" placeholder="Enter your email address"></input>
-                        
-                        <div className="col-md-4 text-md-right text-center my-5 mb-10">
-                              <button className="get-started-btn text-white">Get Started</button>
-                        </div>
-                        </div>
-                        </div>
-                        
+        <div className="mailbox container text-center my-5">
+            <div className="mail-title">
+                <h2>Get your design right, right now</h2>
+                <p> Be the first know our latest offers and updates!</p>
+            </div>
+            <div className=" row mail-field  mt-5 d-flex align-items-center justify-content-center">
+                <div className="col-md-8 col-6 pl-5 ">
+                    <input type="email" class="form-control border-0 shadow-none" placeholder="Enter your email address"></input>
+                </div>
+                <div className="col-md-4 col-6">
+                    <button className="get-started-btn">Get Started</button>
+                </div>
+            </div>
+        </div>
+
         // </div>
     );
 };
