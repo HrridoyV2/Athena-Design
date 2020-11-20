@@ -1,8 +1,13 @@
 
 .contact{
     background-image: linear-gradient(45deg,#2AF59D,#009EFD);
-    border-radius: 50px 0 50px 0;
+    border-radius: 40px 0 40px 0;
     height: 60px;
     width: 178px;
+    text-align: center;
+    padding-top: 10px;
+}
+ .navbar ul li a{
+    font-family: "Montserrat", sans-serif;
     text-align: center;
 }

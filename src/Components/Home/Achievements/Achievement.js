@@ -31,8 +31,8 @@ const Achievement = () => {
   return (
     <div className="container">
       <div>
-        <div className="row">
-          <div className="col-md-5">
+        <div className="row ">
+          <div className="col-md-5 achievement-title">
             <h2>Our Achievements</h2>
             <p className="text-muted achievement-text">
               It is a long established fact that a reader will be distracted by
@@ -42,10 +42,10 @@ const Achievement = () => {
             </p>
           </div>
           <div className="col-md-7 mt-3 mb-5">
-            <div className="row">
+            <div className="row achievement-section">
               {achievements.map((ach) => (
                 <div className="col-6">
-                  <div className="d-flex m-1 bg-light">
+                  <div className="d-flex achievement-btn m-1 ">
                     <div className="img m-3">
                       <img src={ach.img} alt="" />
                     </div>
