@@ -40,6 +40,7 @@ function DedicatedTeam() {
                   <p>Free Stock Photos</p>
                   <p>{t.day} Days Free support</p>
                   <p>24/7 support</p>
+                  <button className="hide-btn order btn">Order Now</button>
                 </div>
               </div>
             </div>
