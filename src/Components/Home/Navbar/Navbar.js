@@ -5,10 +5,10 @@ import toggle from "../../../image/images/nav-toggle-icon.png";
 import "./Navbar.css";
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light py-3">
+        <nav className="navbar navbar-expand-lg navbar-light py-3 nav-bg">
             <div className="container">
                 <a href="#" className="navbar-brand">
-                    <img style={{ width: '127px' }} src={logo} alt="" />
+                    <img style={{ width: '171px', height: "117px" }} src={logo} alt="" />
                 </a>
                 <button className="navbar-toggler" to="/" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 

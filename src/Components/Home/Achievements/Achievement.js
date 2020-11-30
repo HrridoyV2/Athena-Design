@@ -45,7 +45,7 @@ const Achievement = () => {
             <div className="row achievement-section">
               {achievements.map((ach) => (
                 <div className="col-6">
-                  <div className="d-flex achievement-btn m-1 ">
+                  <div className="d-flex achievement-btn m-3 ">
                     <div className="img m-3">
                       <img src={ach.img} alt="" />
                     </div>
